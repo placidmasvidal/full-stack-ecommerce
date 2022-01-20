@@ -24,11 +24,11 @@ registerLocaleData(localeEs, 'es-ES');
     {
       provide: LOCALE_ID,
       useValue: 'es-ES'
-     },
-     {
-       provide: DEFAULT_CURRENCY_CODE,
-       useValue: 'EUR'
-     },
+    },
+    {
+      provide: DEFAULT_CURRENCY_CODE,
+      useValue: 'EUR'
+    },
     ProductService
   ],
   bootstrap: [AppComponent]
